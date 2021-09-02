@@ -3,7 +3,7 @@
 	{
 		"name": "Heal Instantly",
 		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["WaterAircraftCarrier", "Aircraft Carrier","Melee","Helicopter","Mounted","Scout","Siege","Ranged", "Mounted Ranged","Armor","Armored","WaterMelee","Melee Water","WaterRanged", "Ranged Water","WaterSubmarine","Submarine","Gunpowder"]
+		"unitTypes": ["WaterAircraftCarrier", "Aircraft Carrier","Melee","Kris Swordsman","Helicopter","Mounted","Scout","Siege","Ranged", "Mounted Ranged","Armor","Armored","WaterMelee","Melee Water","WaterRanged", "Ranged Water","WaterSubmarine","Submarine","Gunpowder"]
 	},
 	
 	// Ranged+Siege
@@ -83,37 +83,37 @@
 	{
 		"name": "Shock I",
 		"uniques": ["+[15]% Strength in [Open terrain]"],
-		"unitTypes": ["Melee","Gunpowder","Mounted","Armor","Armored"]
+		"unitTypes": ["Melee","Kris Swordsman","Gunpowder","Mounted","Armor","Armored"]
 	},
 	{
 		"name": "Shock II",
 		"prerequisites": ["Shock I"],
 		"uniques": ["+[15]% Strength in [Open terrain]"],
-		"unitTypes": ["Melee","Gunpowder","Mounted","Armor","Armored"]
+		"unitTypes": ["Melee","Kris Swordsman","Gunpowder","Mounted","Armor","Armored"]
 	},
 	{
 		"name": "Shock III",
 		"prerequisites": ["Shock II"],
 		"uniques": ["+[15]% Strength in [Open terrain]"],
-		"unitTypes": ["Melee","Gunpowder","Mounted","Armor","Armored"]
+		"unitTypes": ["Melee","Kris Swordsman","Gunpowder","Mounted","Armor","Armored"]
 	},
 
 	{
 		"name": "Drill I",
 		"uniques": ["+[15]% Strength in [Rough terrain]"],
-		"unitTypes": ["Melee","Gunpowder","Mounted","Armor","Armored"]
+		"unitTypes": ["Melee","Kris Swordsman","Gunpowder","Mounted","Armor","Armored"]
 	},
 	{
 		"name": "Drill II",
 		"prerequisites": ["Drill I"],
 		"uniques": ["+[15]% Strength in [Rough terrain]"],
-		"unitTypes": ["Melee","Gunpowder","Mounted","Armor","Armored"]
+		"unitTypes": ["Melee","Kris Swordsman","Gunpowder","Mounted","Armor","Armored"]
 	},
 	{
 		"name": "Drill III",
 		"prerequisites": ["Drill II"],
 		"uniques": ["+[15]% Strength in [Rough terrain]"],
-		"unitTypes": ["Melee","Gunpowder","Mounted","Armor","Armored"]
+		"unitTypes": ["Melee","Kris Swordsman","Gunpowder","Mounted","Armor","Armored"]
 	},
 	{
 		"name": "Charge",
@@ -125,32 +125,32 @@
 		"name": "Siege",
 		"prerequisites": ["Shock II","Drill II"],
 		"uniques": ["+[50]% Strength vs [City]"],
-		"unitTypes": ["Melee","Gunpowder"]
+		"unitTypes": ["Melee","Kris Swordsman","Gunpowder"]
 	},
 	{
 		"name": "Blitz",
 		"prerequisites": ["Shock III","Drill III"],
 		"uniques": ["[1] additional attacks per turn"],
-		"unitTypes": ["Melee","Gunpowder","Mounted","Armor","Armored"]
+		"unitTypes": ["Melee","Kris Swordsman","Gunpowder","Mounted","Armor","Armored"]
 	},
 	{
 		"name": "Woodsman",
 		"prerequisites": ["Shock III","Drill III"],
 		"uniques": ["Double movement rate through Forest and Jungle"],
-		"unitTypes": ["Melee","Gunpowder"]
+		"unitTypes": ["Melee","Kris Swordsman","Gunpowder"]
 	},
 	{
 		"name": "Medic",
 		"prerequisites": ["Shock I", "Drill I", "Scouting II", "Survivalism II"],
 		"uniques": ["[+5] HP when healing", "All adjacent units heal [5] HP when healing"],
-		"unitTypes": ["Melee","Gunpowder","Mounted","Scout"]
+		"unitTypes": ["Melee","Kris Swordsman","Gunpowder","Mounted","Scout"]
 	},
 	{
 		"name": "Medic II",
 		"prerequisites": ["Medic"],
 		"uniques": ["[+5] HP when healing", "All adjacent units heal [5] HP when healing",
 					"[+5] HP when healing in [Foreign Land] tiles"],
-		"unitTypes": ["Melee","Gunpowder","Mounted","Scout"]
+		"unitTypes": ["Melee","Kris Swordsman","Gunpowder","Mounted","Scout"]
 	},
 	
 	// Scout
@@ -402,20 +402,20 @@
 	{
 		"name": "Cover I",
 		"uniques": ["[+33]% Strength when defending vs [Ranged] units"],
-		"unitTypes": ["Melee","Helicopter","Gunpowder","Ranged", "Mounted Ranged","Siege"]
+		"unitTypes": ["Melee","Kris Swordsman","Helicopter","Gunpowder","Ranged", "Mounted Ranged","Siege"]
 	},
 	{
 		"name": "Cover II",
 		"prerequisites": ["Cover I"],
 		"uniques": ["[+33]% Strength when defending vs [Ranged] units"],
-		"unitTypes": ["Melee","Helicopter","Gunpowder","Ranged", "Mounted Ranged","Siege"]
+		"unitTypes": ["Melee","Kris Swordsman","Helicopter","Gunpowder","Ranged", "Mounted Ranged","Siege"]
 	},
 	
 	{
 		"name": "March",
 		"prerequisites": ["Accuracy II","Barrage II","Shock III","Drill III"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"unitTypes": ["Melee","Helicopter","Gunpowder","Ranged", "Mounted Ranged","Siege","Mounted"]
+		"unitTypes": ["Melee","Kris Swordsman","Helicopter","Gunpowder","Ranged", "Mounted Ranged","Siege","Mounted"]
 	},
 	{
 		"name": "Mobility",
@@ -428,7 +428,7 @@
 		"name": "Sentry",
 		"prerequisites": ["Accuracy I","Barrage I","Shock II","Drill II","Bombardment I","Targeting I","Boarding Party I","Coastal Raider I"],
 		"uniques": ["[+1] Visibility Range"],
-		"unitTypes": ["Melee","Helicopter","Gunpowder","Mounted","WaterRanged", "Ranged Water","Armor","Armored","WaterMelee","Melee Water"]
+		"unitTypes": ["Melee","Kris Swordsman","Helicopter","Gunpowder","Mounted","WaterRanged", "Ranged Water","Armor","Armored","WaterMelee","Melee Water"]
 	},
 	{
 		"name": "Logistics",
@@ -441,13 +441,13 @@
 	{
 		"name": "Ambush Formation I",
 		"uniques": ["+[33]% Strength vs [Armor]","+[33]% Strength vs [Mounted]","+[33]% Strength vs [Armored]","+[33]% Strength vs [Mounted Ranged]"],
-		"unitTypes": ["Melee","Gunpowder","Fighter","Bomber"]
+		"unitTypes": ["Melee","Kris Swordsman","Gunpowder","Fighter","Bomber"]
 	},
 	{
 		"name": "Ambush Formation II",
 		"prerequisites": ["Ambush Formation I"],
 		"uniques": ["+[33]% Strength vs [Armor]","+[33]% Strength vs [Mounted]","+[33]% Strength vs [Armored]","+[33]% Strength vs [Mounted Ranged]"],
-		"unitTypes": ["Melee","Gunpowder","Fighter","Bomber"]
+		"unitTypes": ["Melee","Kris Swordsman","Gunpowder","Fighter","Bomber"]
 	},
 		{
 		"name": "Formation I",
@@ -456,8 +456,7 @@
 	{
 		"name": "Formation II",
 		"prerequisites": ["Formation I"],
-		"uniques": ["+[33]% Strength vs [Armor]","+[33]% Strength vs [Mounted]","+[33]% Strength vs [Armored]","+[33]% Strength vs [Mounted Ranged]"],
-		"unitTypes": ["Melee","Gunpowder","Fighter","Bomber"]
+		"uniques": ["+[33]% Strength vs [Armor]","+[33]% Strength vs [Mounted]","+[33]% Strength vs [Armored]","+[33]% Strength vs [Mounted Ranged]"]
 	},
 		{
 		"name": "Ambush I",
@@ -466,8 +465,7 @@
 	{
 		"name": "Ambush II",
 		"prerequisites": ["Ambush I"],
-		"uniques": ["+[33]% Strength vs [Armor]","+[33]% Strength vs [Mounted]","+[33]% Strength vs [Armored]","+[33]% Strength vs [Mounted Ranged]"],
-		"unitTypes": ["Melee","Gunpowder","Fighter","Bomber"]
+		"uniques": ["+[33]% Strength vs [Armor]","+[33]% Strength vs [Mounted]","+[33]% Strength vs [Armored]","+[33]% Strength vs [Mounted Ranged]"]
 	},
 	
 	
@@ -532,7 +530,7 @@
 		"name": "Amphibious",
 		"prerequisites": ["Shock I", "Drill I"],
 		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking from the sea"],
-		"unitTypes": ["Melee","Gunpowder"]
+		"unitTypes": ["Melee","Kris Swordsman","Gunpowder"]
 	},
 	{
 		"name": "War Canoes", // Songhai
@@ -590,19 +588,19 @@
 		"name": "Ambition",
 		"uniques": ["+[50]% Strength when attacking"],
 		"prerequisites": ["Mystic Blade", "Ambition", "Invulnerability", "Restlessness"],
-		"unitTypes": ["Melee","Gunpowder"]
+		"unitTypes": ["Kris Swordsman"]
 	},
 	{
 		"name": "Invulnerability",
 		"uniques": ["All healing effects doubled"],
 		"prerequisites": ["Mystic Blade", "Ambition", "Invulnerability", "Restlessness"],
-		"unitTypes": ["Melee","Gunpowder"]
+		"unitTypes": ["Kris Swordsman"]
 	},
 	{
 		"name": "Restlessness",
 		"uniques": ["[1] additional attacks per turn"],
 		"prerequisites": ["Mystic Blade", "Ambition", "Invulnerability", "Restlessness"],
-		"unitTypes": ["Melee","Gunpowder"]
+		"unitTypes": ["Kris Swordsman"]
 	},
 	{
 		"name": "Buffalo Horns I", // only for Ikanda
@@ -692,7 +690,7 @@
 	},
 			{
 		"name": "Swift Charge",
-		"uniques": ["+[50]% Strength vs [Melee]","+[25]% Strength vs [Gunpowder]"],
+		"uniques": ["+[50]% Strength vs [Melee]","+[50]% Strength vs [Kris Swordsman]","+[25]% Strength vs [Gunpowder]"],
 	},
 ]
 
