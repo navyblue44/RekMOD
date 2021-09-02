@@ -694,7 +694,7 @@
 	{
 		"name": "Kris Swordsman", 
 		"replaces": "Swordsman",
-		"unitType": "Melee",
+		"unitType": "Kris Swordsman",
 		"uniqueTo": "Indonesia",
 		"movement": 2,
 		"strength": 15,
