@@ -27,6 +27,10 @@
         "name": "Siege",
         "movementType": "Land"
     },
+	{ // Exclusive to Kris Swordsman
+		"name": "Kris Swordsman",
+		"movementType": "Land"
+	},
     {
         "name": "Civilian Water",
         "movementType": "Water"
